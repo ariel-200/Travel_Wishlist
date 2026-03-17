@@ -1,0 +1,28 @@
+span.place-name {
+    display: inline-block;
+    width: 70%;
+}
+
+form.add-place-form label,
+form.add-place-form input,
+form.add-place-form button {
+    display: inline;
+}
+
+div.wishlist-place {
+    margin: 20px;
+}
+
+label {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+a.nav-link {
+    margin-right: 10px;
+}
+
+#add-new-place {
+    background-color: green;
+    border: darkgreen;
+}
