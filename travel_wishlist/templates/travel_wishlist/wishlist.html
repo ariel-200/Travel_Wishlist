@@ -20,9 +20,9 @@
 <div class="wishlist-place">
     <span class="place_name">{{ place.name }}</span>
 
-    <form class ="visited-form" method="POST" action="{% url 'place_visited' place.pk %}">
+    <form class ="visited-form" method="POST" action="{% url 'place_was_visited' place.pk %}">
         {% csrf_token %}
-        <button>Visited!</button>
+        <button id ="visited-button-{{ place.pk }}" type="submit">Visited!</button>
     </form>
 
 </div>
